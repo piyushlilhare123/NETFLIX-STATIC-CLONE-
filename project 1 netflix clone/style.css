@@ -1,0 +1,305 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+main {
+    height: 90vh;
+    background-image: url("images/netflix.jpg");
+    background-size: cover;
+    background-position: center center;
+    border-bottom: 5px solid rgb(255, 6, 6);
+    box-sizing: border-box;
+    box-shadow: 7px 14px 75px -12px rgb(45, 0, 150);
+    border-radius: 20px;
+}
+
+.box {
+    width: 100vw;
+    height: 90vh;
+    background-color: black;
+    opacity: 0.7;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 650px;
+    height: 15vh;
+    width: 1000px;
+    margin: auto;
+}
+
+.box1 {
+    height: 50vh;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box2 {
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 35px;
+    cursor: pointer;
+}
+
+div.box3 {
+    height: 49vh;
+    width: 950px;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    overflow: auto;
+
+}
+
+
+.box4 {
+
+    border-radius: 0.5rem;
+    min-width: 160px;
+    height: 44vh;
+
+}
+
+.item1 {
+    background-image: url("images/backgroundimage1.webp");
+    -webkit-text-stroke: 0.25rem rgb(255, 255, 255);
+    font-size: 7.8rem;
+    font-weight: 900;
+
+    animation: piyush 2s 1ms infinite;
+    cursor: pointer;
+}
+
+.item2 {
+    background-image: url("images/backgroundimage2.webp");
+    background-size: cover;
+    background-position: bottom;
+    -webkit-text-stroke: 0.25rem rgb(255, 255, 255);
+    font-size: 7.8rem;
+    font-weight: 900;
+    animation: piyush 2s 1ms infinite;
+    cursor: pointer;
+
+}
+
+.item3 {
+    background-image: url("images/backgroundimage3webp.webp");
+    background-size: cover;
+    background-position: bottom;
+    -webkit-text-stroke: 0.25rem rgb(255, 255, 255);
+    font-size: 7.8rem;
+    font-weight: 900;
+    animation: piyush 2s 1ms infinite;
+    cursor: pointer;
+}
+
+
+.item4 {
+    background-image: url("images/backgroundimage4.webp");
+    background-size: cover;
+    background-position: bottom;
+    -webkit-text-stroke: 0.25rem rgb(255, 255, 255);
+    font-size: 7.8rem;
+    font-weight: 900;
+    animation: piyush 2s 1ms infinite;
+    cursor: pointer;
+}
+
+
+.item5 {
+    background-image: url("images/backgroundimage5.webp");
+    background-size: cover;
+    background-position: bottom;
+    -webkit-text-stroke: 0.25rem rgb(255, 255, 255);
+    font-size: 7.8rem;
+    font-weight: 900;
+    animation: piyush 2s 1ms infinite;
+    cursor: pointer;
+}
+
+
+
+.item6 {
+    background-image: url("images/backgroundimage6.webp");
+    background-size: cover;
+    background-position: bottom;
+    -webkit-text-stroke: 0.25rem rgb(255, 255, 255);
+    font-size: 7.8rem;
+    font-weight: 900;
+    animation: piyush 2s 1ms infinite;
+    cursor: pointer;
+}
+
+
+.item7 {
+    background-image: url("images/backgroundimage7.webp");
+    background-size: cover;
+    background-position: bottom;
+    -webkit-text-stroke: 0.25rem rgb(255, 255, 255);
+    font-size: 7.8rem;
+    font-weight: 900;
+    animation: piyush 2s 1ms infinite;
+    cursor: pointer;
+}
+
+.item8 {
+    background-image: url("images/backgroundimage8.webp");
+    background-size: cover;
+    background-position: bottom;
+    -webkit-text-stroke: 0.25rem rgb(255, 255, 255);
+    font-size: 7.8rem;
+    font-weight: 900;
+    animation: piyush 2s 1ms infinite;
+    cursor: pointer;
+}
+
+
+.item9 {
+    background-image: url("images/backgroundimage9.webp");
+    background-size: cover;
+    background-position: bottom;
+    -webkit-text-stroke: 0.25rem rgb(255, 255, 255);
+    font-size: 7.8rem;
+    font-weight: 900;
+    animation: piyush 2s 1ms infinite;
+    cursor: pointer;
+}
+
+.item10 {
+    background-image: url("images/backgroundimage10.webp");
+    background-size: cover;
+    background-position: bottom;
+    -webkit-text-stroke: 0.25rem rgb(255, 255, 255);
+    font-size: 7.8rem;
+    font-weight: 900;
+    animation: piyush 2s 1ms infinite;
+    cursor: pointer;
+}
+
+h1 {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    color: white;
+    max-width: 1000px;
+    margin: auto;
+}
+
+div.box5 {
+    height: 40vh;
+    width: 990px;
+    margin: auto;
+    display: flex;
+    gap: 15px;
+}
+
+
+.box6 {
+    color: aliceblue;
+    border-radius: 0.5rem;
+    min-width: 233px;
+    height: 40vh;
+
+    background: linear-gradient(82deg, #192247 0%, #210e17 96.86%);
+}
+
+h3 {
+    padding: 20px 10px 0px 10px;
+    font-size: 19px;
+
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.paragraph {
+    text-align: left;
+    font-size: 14px;
+    font-weight: lighter;
+    padding: 20px 10px 0px 10px;
+}
+
+
+div.box7 {
+    height: 63vh;
+    width: 990px;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+
+}
+
+.box8 {
+    padding-left: 40px;
+    text-align: left;
+    min-width: 233px;
+    height: 10vh;
+    color: white;
+    background-color: rgb(65, 65, 65);
+    font-size: 30px;
+    font-weight: 100;
+}
+
+h4 {
+    color: white;
+    margin: auto;
+    width: 500px;
+}
+
+.box9 {
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 35px;
+    cursor: pointer;
+}
+
+div.ayush {
+    margin: auto;
+    width: 990px;
+    min-height: 130px;
+
+    display: flex;
+    gap: 10px;
+}
+
+.box10 {
+    width: 250px;
+    height: 28vh;
+
+    font-size: 20px;
+
+}
+
+footer {
+    margin: auto;
+    width: 990px;
+    min-height: 130px;
+    color: white;
+}
+
+@keyframes piyush {
+    from {
+        transform: scale(1.1);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
